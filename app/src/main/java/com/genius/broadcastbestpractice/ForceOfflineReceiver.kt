@@ -31,7 +31,7 @@ class ForceOfflineReceiver : BroadcastReceiver() {
                 .show()
         } else {
             // 如果上下文不是 Activity（如 Service），则使用 Toast 作为备选
-            Toast.makeText(context, "当前账号在另一台设备上登录，您被迫下线", Toast.LENGTH_SHORT).show()
+            Toast.makeText(context, "当前账号在另一台设备上登录，您被迫下线!!!", Toast.LENGTH_SHORT).show()
         }
     }
 }
