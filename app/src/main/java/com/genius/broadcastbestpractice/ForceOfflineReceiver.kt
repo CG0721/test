@@ -17,7 +17,7 @@ class ForceOfflineReceiver : BroadcastReceiver() {
             // 创建并显示 AlertDialog
             AlertDialog.Builder(context)
                 .setTitle("下线通知")
-                .setMessage("当前账号在另一台设备上登录，您被迫下线")
+                .setMessage("当前账号在另一台设备上登录，您被迫下线!!!")
                 .setCancelable(false) // 禁止点击外部取消
                 .setPositiveButton("确定") { dialog, _ ->
                     dialog.dismiss()
